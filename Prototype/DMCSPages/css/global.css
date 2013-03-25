@@ -1,0 +1,8 @@
+#content,#footer{
+	margin: auto;
+	max-width: 978px;
+}
+
+.clearContent{
+	clear:both;
+}
