@@ -1,0 +1,46 @@
+#leftPanel{
+	border: 1px solid #E8E8E8;
+	width:302px;
+	float:left;
+	margin-top: 10px;
+}
+#dataManagement{
+	text-align:center;
+}
+.open,.closed{
+	padding:0 5px;
+}
+ul#leftUl li{
+	margin: 0 -25px;
+}
+.subtitle a span,#navTitle{
+	color:#818181;
+}
+
+.titleNav{
+	color:#000000;
+}
+ul li .subtitle{
+	margin:20px 0 0 75px;
+}
+
+.treeview-collapsed .subtitle{
+	display:none;
+}
+#rightContent{
+	float:left;
+	margin-left:37px;
+	width: 635px;
+	}
+.navTitle{
+	margin-top:40px;
+}
+.navSubtitle{
+	border-top:2px #d9d7d6 solid;
+	text-align:center;
+	line-height:45px;
+}
+.url_l{
+	color:#2665b1;
+	cursor:pointer;
+}

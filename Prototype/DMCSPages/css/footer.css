@@ -1,0 +1,38 @@
+#footer{
+	margin-top:37px;
+	width:991px;
+}
+.footer-l{
+	width: 100%;
+	margin:auto;
+	border-top:1px solid #cfcfce;
+	border-bottom:1px solid #cfcfce;
+	height: 150px;
+}
+.footerNav{
+	width: 20%;
+	float:left;
+	margin: 0 2.5% 20px;
+}
+.footerNav ul,li{
+	margin: 0;
+	padding: 0;
+	display:list-item;
+	list-style: none;
+	color:#818181;
+}
+h3{
+	color:#404040;
+}
+#lang{
+	float:left;
+	color:#55aecb
+}
+.logSrc{
+	float:right;
+}
+#footer-copyright{
+	text-align:center;
+	margin:20px 0;
+	color: #818181;
+}

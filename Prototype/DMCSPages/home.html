@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/header.css" rel="stylesheet" type="text/css" />
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<link href="css/footer.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript"
+	src="js/lib/jquery.i18n.properties-1.0.9.js"></script>
+<script type="text/javascript" src="js/loadLang.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="logo">
+			<h1>
+				 <img src="image/ant.png" alt="Data Management Cloud Platform">
+				<span class="data_managenent"></span></a>
+			</h1>
+
+			<div id="account">
+				<span class="already_a"></span> <a href=""><span class="sign_in"></span>
+				</a>
+			</div>
+		</div>
+
+	</div>
+	<div id="menuBg">
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="home.html"><span class="home"></span>
+				</a></li>
+				<li><a href="product.html"><span class="product"></span> </a></li>
+
+				<li><a href="develop.html"><span class="develop"></span> </a></li>
+
+				<li><a href="service.html"><span class="service"></span> </a></li>
+
+				<li><a href="order.html"><span class="order"></span> </a></li>
+
+				<li><a href="contactus.html"><span class="contact_us"></span>
+				</a></li>
+
+			</ul>
+			<div id="contactBuy">
+				<a class="contact"><span class="contact_sales"></span> </a>-or -<a
+					class="tryButton"><span class="try_it"></span> </a>
+			</div>
+		</div>
+
+	</div>
+	<div id="content">
+		<div id="ad">
+			<div id="button">
+				<dl id=button1>
+					<a class="on"
+						onClick="switchPic('button1','pic1');this.blur();return false;"
+						href="#"></a>
+				</DL>
+				<dl id=button2>
+					<a onClick="switchPic('button2','pic2');this.blur();return false;"
+						href="#"></a>
+				</DL>
+				<dl id=button3>
+					<a onClick="switchPic('button3','pic3');this.blur();return false;"
+						href="#"></a>
+				</DL>
+				<dl id=button4>
+					<a onClick="switchPic('button4','pic4');this.blur();return false;"
+						href="#"></a>
+				</DL>
+			</div>
+			<div id="pic1">
+				<img src="image/ads1.png" class="adImg">
+			</div>
+			<div id="pic2">
+				<img src="image/ads2.png" class="adImg">
+			</div>
+			<div id="pic3">
+				<img src="image/ads3.png" class="adImg">
+			</div>
+			<div id="pic4">
+				<img src="image/ads4.png" class="adImg">
+			</div>
+		</div>
+		<div id="productDevelop">
+			<div class="out_wrap">
+				<hr class="productHr">
+				<div id="product">
+					<img src="image/product.png" class='imgTip'>
+					<h1>
+						<span class="product"></span>
+					</h1>
+					<div class="detailInfor">
+						<span class="product_infor"></span>
+					</div>
+					<div class="link">
+						<a><span class="detail"></span> </a>|<a><span class="demo"></span>
+						</a>|<a><span class="pricing"></span> </a>|<a><span
+							class="customers"></span> </a>
+					</div>
+				</div>
+			</div>
+			<div class="out_wrap" style="margin-left: 25px;">
+				<hr class="developHr">
+				<div id="develop">
+					<img src="image/develop.png" class='imgTip'>
+					<h1>
+						<span class="develop"></span>
+					</h1>
+					<div class="detailInfor">
+						<span class="develop_infor"></span>
+					</div>
+					<div class="link">
+						<a><span class="detail"></span> </a>|<a><span class="demo"></span>
+						</a>|<a><span class="pricing"></span> </a>|<a><span
+							class="customers"></span> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearContent"></div>
+		<div id="prs">
+			<div class="out_wrap1">
+				<hr class="pricepHr">
+				<div id="price">
+					<img src="image/price.png" class='imgTip'>
+					<h1>
+						<span class="price"></span>
+					</h1>
+					<div class="detailInfor">
+						<span class="price_infor"></span>
+					</div>
+					<div class="link">
+						<a><span class="detail"></span> </a>|<a><span class="demo"></span>
+						</a>|<a><span class="pricing"></span> </a>|<a><span
+							class="customers"></span> </a>
+					</div>
+				</div>
+			</div>
+			<div class="out_wrap1" style="margin-left: 18px;">
+				<hr class="orderHr">
+				<div id="order">
+					<img src="image/order.png" class='imgTip'>
+					<h1>
+						<span class="order"></span>
+					</h1>
+					<div class="detailInfor">
+						<span class="order_infor"></span>
+					</div>
+					<div class="link">
+						<a><span class="detail"></span> </a>|<a><span class="demo"></span>
+						</a>|<a><span class="pricing"></span> </a>|<a><span
+							class="customers"></span> </a>
+					</div>
+				</div>
+			</div>
+			<div class="out_wrap1" style="margin-left: 18px;">
+				<hr class="serviceHr">
+				<div id="service">
+					<img src="image/service.png" class='imgTip'>
+					<h1>
+						<span class="price"></span>
+					</h1>
+					<div class="detailInfor">
+						<span class="service_infor"></span>
+					</div>
+					<div class="link">
+						<a><span class="detail"></span> </a>|<a><span class="demo"></span>
+						</a>|<a><span class="pricing"></span> </a>|<a><span
+							class="customers"></span> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearContent"></div>
+	<div id="footer">
+		<div class="footer-l">
+			<div class="footerNav">
+				<h3>
+					<span class="home"></span>
+				</h3>
+				<ul>
+					<li><a><span class="welcome"></span> </a>
+					</li>
+					<li><a><span class="product"></span> </a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerNav">
+				<h3>
+					<span class="price"></span>
+				</h3>
+				<ul>
+					<li><a><span class="calculator"></span> </a>
+					</li>
+					<li><a><span class="plan_to"></span> </a>
+					</li>
+					<li><a><span class="free_trial"></span> </a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerNav">
+				<h3>
+					<span class="develop"></span>
+				</h3>
+				<ul>
+					<li><a><span class="overview"></span> </a>
+					</li>
+					<li><a><span class="java"></span> </a>
+					</li>
+					<li><a><span class="net"></span> </a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerNav">
+				<h3>
+					<span class="service"></span>
+				</h3>
+				<ul>
+					<li><a><span class="linkman"></span> </a>
+					</li>
+					<li><a><span class="service_desk"></span> </a>
+					</li>
+					<li><a><span class="faq"></span> </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer-copyright">
+			<div id="lang">English</div>
+			©2013 Crazy Ant<img src="image/ant.png" class="logSrc">
+		</div>
+
+	</div>
+</body>
+</html>
