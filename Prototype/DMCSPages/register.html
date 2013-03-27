@@ -3,14 +3,14 @@
 <head>
 <link href="css/header.css" rel="stylesheet" type="text/css" />
 <link href="css/global.css" rel="stylesheet" type="text/css" />
-<link href="css/product.css" rel="stylesheet" type="text/css" />
+<link href="css/register.css" rel="stylesheet" type="text/css" />
 <link href="css/footer.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/lib/jquery.min.js"></script>
 <script type="text/javascript"
 	src="js/lib/jquery.i18n.properties-1.0.9.js"></script>
 <script type="text/javascript" src="js/loadLang.js"></script>
 <script type="text/javascript" src="js/global.js"></script>
-<script type="text/javascript" src="js/product.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -32,11 +32,11 @@
 			<ul>
 				<li><a href="home.html"><span class="home"></span> </a>
 				</li>
-				<li><a href="product.html"><span
-						class="product"></span> </a>
+				<li><a href="product.html"><span class="product"></span> </a>
 				</li>
 
-				<li class="active"><a href="develop.html"><span class="develop"></span> </a>
+				<li class="active"><a href="develop.html"><span
+						class="develop"></span> </a>
 				</li>
 
 				<li><a href="service.html"><span class="service"></span> </a>
@@ -45,7 +45,8 @@
 				<li><a href="order.html"><span class="order"></span> </a>
 				</li>
 
-				<li><a href="contactus.html"><span class="contact_us"></span> </a>
+				<li><a href="contactus.html"><span class="contact_us"></span>
+				</a>
 				</li>
 
 			</ul>
@@ -57,8 +58,110 @@
 
 	</div>
 	<div id="content">
+		<div id="step1">
+			<div id="register-progress"></div>
+			<div class="register-step">
+				<div class="register-step1 selected">
+					<span class="step1"></span>
+				</div>
+				<div class="register-step2">
+					<span class="step2"></span>
+				</div>
+				<div class="register-step3">
+					<span class="step3"></span>
+				</div>
+			</div>
+			<div class="register-form">
+				<img src="image/mail.png" width="61" height="60" id="mailImg">
+				<div class="form_l">
+					<label class="required"> * </label><span class="email"></span><input
+						type="text" value=""><span class='email_1'></span>
+				</div>
+				<div class="form_2">
+					<label class="required"> * </label><span class="pw"></span><input
+						type="text" value="">
+					<div class="strength-bar">
+						<div class="strength-bar1">
+							<span class="weak"></span>
+						</div>
+						<div class="strength-bar1">
+							<span class="middle"></span>
+						</div>
+						<div class="strength-bar1">
+							<span class="strong"></span>
+						</div>
+					</div>
+				</div>
+				<div class="form_3">
+					<label class="required"> * </label><span class="pw_1"></span><input
+						type="text" value="">
+
+				</div>
+				<div class="form_4">
+					<label class="required"> * </label><span class="code"></span><input
+						type="text" value="" id="code"> <img
+						src="image/verify.png" width="122" height="47" id="verify"><span
+						class="can_see"></span> <span class="change_one"></span>
+				</div>
+
+				<div class="buttonStyle" id="okButton">
+					<span class="ok"></span>
+				</div>
+				<span class="dmcs_website"></span>
+			</div>
+		</div>
+		<div id="step2">
+			<div id="register-progress2"></div>
+			<div class="register-step">
+				<div class="register-step1 ">
+					<span class="step1"></span>
+				</div>
+				<div class="register-step2 selected">
+					<span class="step2"></span>
+				</div>
+				<div class="register-step3">
+					<span class="step3"></span>
+				</div>
+			</div>
+			<div class="register-form">
+				<img src="image/right5.png" width="32" height="32" class="right5"><span
+					class="email_had_sent"></span>
+				<div class="buttonStyle" id="check_email_button">
+					<span class="check_email"></span>
+				</div>
+				<hr class="splitline">
+				<div class="trouble">
+					<span class="check_email_1"></span><br>
+					<ul id="trouble_l">
+						<li><span class="check_email_2"></span></li>
+						<li><span class="check_email_3"></span>
+							<div class="resent">
+								<span class="check_email_4"></span>
+							</div></li>
+						<li><span class="check_email_5"></span> <span
+							class="check_email_6"></span></li>
+						<li><span class="check_email_7"></span> <span
+							class="check_email_8"></span></li>
+				</div>
+			</div>
+		</div>
+
+		<div id="step3">
+			<div id="successInfor">
+				<img src="image/right5.png" width="32" height="32" class="right5"><span
+					class="success"></span>
+			</div>
+			<div class="linkList">
+				<span class="continue1"></span> <span class="go_back"></span> <span
+					class="one_second"></span>
+			</div>
+			<img src="image/ads01.png" width="473" height="177"><img
+				src="image/ads02.png" width="473" height="177"
+				style="margin-left: 30px;">
+		</div>
 
 	</div>
+
 	<div class="clearContent"></div>
 	<div id="footer">
 		<div class="footer-l">

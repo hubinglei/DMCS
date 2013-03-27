@@ -56,6 +56,7 @@
 	background-color:#565555;
 	border:0 none;
 	height:2px;
+	margin-bottom:0;
 }
 .tableTitle{
 	background-color:#f6f6f6;
@@ -73,3 +74,13 @@ table tr td{
 	width:98%;
 	padding:20px 16px;
 }
+#calculationTable{
+	background-image:url(../image/jsj_bg.png);
+	width:958px;
+	height:328px;
+	color:#75706b;
+}
+table#calculationTable tr td{
+	text-align:left;
+	padding-left:30px;
+	}

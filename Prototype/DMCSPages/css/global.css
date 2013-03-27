@@ -6,3 +6,20 @@
 .clearContent{
 	clear:both;
 }
+.buttonStyle {
+    background: url("../image/agree-bg.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    height: 46px;
+    line-height: 46px;
+    margin: 20px 0 10px 200px;
+    text-align: center;
+    width: 181px;
+}
+.splitline {
+    background-color: #CFCFCE;
+    border: 0 none;
+    height: 1px;
+    width: 900px;
+}
