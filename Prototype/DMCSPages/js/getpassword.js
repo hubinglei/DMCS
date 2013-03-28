@@ -22,6 +22,15 @@ $(function() {
 			$('#step3').hide();
 			break;
 		}
-
 	})
+	
+	$('#getCode').click(function(){
+			$('#codeTips').show();					 
+								 })
+	$('#backButton').click(function(){
+			$('#step1').show();
+			$('#step2').hide();				 
+								 })
+	
+	
 })
