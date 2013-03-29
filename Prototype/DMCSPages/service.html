@@ -3,14 +3,21 @@
 <head>
 <link href="css/header.css" rel="stylesheet" type="text/css" />
 <link href="css/global.css" rel="stylesheet" type="text/css" />
-<link href="css/product.css" rel="stylesheet" type="text/css" />
+<link href="css/service.css" rel="stylesheet" type="text/css" />
 <link href="css/footer.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<style>
+.hr_line1{
+float:left;
+}
+</style>
+<![endif]-->
 <script type="text/javascript" src="js/lib/jquery.min.js"></script>
 <script type="text/javascript"
 	src="js/lib/jquery.i18n.properties-1.0.9.js"></script>
 <script type="text/javascript" src="js/loadLang.js"></script>
 <script type="text/javascript" src="js/global.js"></script>
-<script type="text/javascript" src="js/product.js"></script>
+<script type="text/javascript" src="js/service.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -32,20 +39,21 @@
 			<ul>
 				<li><a href="home.html"><span class="home"></span> </a>
 				</li>
-				<li><a href="product.html"><span
-						class="product"></span> </a>
+				<li><a href="product.html"><span class="product"></span> </a>
 				</li>
 
-				<li class="active"><a href="develop.html"><span class="develop"></span> </a>
+				<li><a href="develop.html"><span
+						class="develop"></span> </a>
 				</li>
 
-				<li><a href="service.html"><span class="service"></span> </a>
+				<li class="active"><a href="service.html"><span class="service"></span> </a>
 				</li>
 
 				<li><a href="order.html"><span class="order"></span> </a>
 				</li>
 
-				<li><a href="contactus.html"><span class="contact_us"></span> </a>
+				<li><a href="contactus.html"><span class="contact_us"></span>
+				</a>
 				</li>
 
 			</ul>
@@ -57,7 +65,64 @@
 
 	</div>
 	<div id="content">
-
+		<div class="serviceContent">
+			<div class="serviceTitle">
+				<span class="gerrn_shannel"></span>
+				<hr class="hr_line1">
+			</div>
+			<div class="easy_channel">
+				<ul class="easy_channel1" id="register">
+					<li><img src="image/register.png" width="108" height="109">
+					</li>
+					<li><span class="sign_in_account"></span>
+					</li>
+				</ul>
+				<ul class="easy_channel1" id="buy">
+					<li><img src="image/buy.png" width="108" height="109">
+					</li>
+					<li><span class="buy_product"></span>
+					</li>
+				</ul>
+				<ul class="easy_channel1" id="getpassword">
+					<li><img src="image/getPassword.png" width="108" height="109">
+					</li>
+					<li><span class="find_key"></span>
+					</li>
+				</ul>
+				<ul class="easy_channel1">
+					<li><img src="image/renew.png" width="108" height="109">
+					</li>
+					<li><span class="renew"></span>
+					</li>
+				</ul>
+				<ul class="easy_channel1">
+					<li><img src="image/service1.png" width="108" height="109">
+					</li>
+					<li><span class="support"></span>
+					</li>
+				</ul>
+				<ul class="easy_channel1">
+					<li><img src="image/costCount.png" width="108" height="109">
+					</li>
+					<li><span class="cost"></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+        <div class="clearContent"></div>
+		<div class="serviceContent">
+		<div class="serviceTitle">
+				<span class="use_help"></span>
+				<hr class="hr_line1 hr_line2">
+			</div>
+            <div id="productInfor"><img src="image/product_icon.png" width="45" height="45" id="product_icon">
+            <span class="use_help1" ></span>
+            </div>
+            <div id="sdk">
+            <span class="java_sdk" ></span>
+            <span class="net_sdk" ></span>
+            </div>
+            </div>
 	</div>
 	<div class="clearContent"></div>
 	<div id="footer">

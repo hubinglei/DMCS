@@ -2,12 +2,32 @@ $(function() {
 	var language =getLang();
 	
 	loadBundles(language);
-	$('#lang').click(function() {
+	$('#lang').click(function(event) {
+		event.stopPropagation();
+		if ($('.lang-selection-panel').is(":visible")) {
+		$('.lang-selection-panel').hide();
+		}else{
+			$('.lang-selection-panel').show();
+		}
+		
+	})
+	$(document).click(function() {
+		$('.lang-selection-panel').hide();
+	})
+	
+	
+	$(".lang_1").click(function() {
+		loadBundles('en_US');
+		setCookie('en_US')
+
+	})
+	
+	$(".lang_3").click(function() {
 		loadBundles('zh_CN');
 		setCookie('zh_CN')
+
 	})
 })
-
 function getLang(){
 	var language;
 	if (window.localStorage) {

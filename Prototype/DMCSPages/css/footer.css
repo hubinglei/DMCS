@@ -36,3 +36,23 @@ h3{
 	margin:20px 0;
 	color: #818181;
 }
+.lang-selection-panel{
+	background-color: #4C4C4C;
+    display: none;
+    padding: 10px;
+    position: absolute;
+	border-top: 4px solid #8DBB40;
+    width: 479px;
+	margin-top: -67px;
+}
+.arrow{
+	background:url(../image/langarrow.png);
+	width:10px;
+	height:11px;
+	bottom: -10px;
+	position: absolute;
+	margin-left:-10px;
+}
+.lang_3,.lang_2,.lang_1{
+	cursor:pointer;
+}

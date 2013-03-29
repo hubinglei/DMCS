@@ -1,0 +1,49 @@
+.serviceTitle{
+	border-bottom:2px solid #CFCFCE;
+	font-size: 18px;
+	font-weight:600;
+}
+.serviceContent{
+	margin-top:20px;
+}
+.hr_line1{
+	color:#3B67B0;
+	background-color:#3B67B0;
+	width:80px;
+	margin:0;
+	height:2px;
+	border:0 none;
+	margin-bottom:-2px;
+	
+}
+.hr_line2{
+	width:120px;
+}
+.easy_channel{
+	margin-left:auto;
+	margin-right:auto;
+}
+.easy_channel1{
+	float:left;
+	margin: 10px 70px;
+	cursor:pointer;
+}
+.easy_channel1 span{
+	margin-top:10px;
+	margin-left: 20px;
+}
+#product_icon{
+	margin:20px 0 0 40px;
+}
+#sdk{
+	color:#225799;
+}
+.use_help1{
+	margin-top:-10px;
+}
+#productInfor span{
+	line-height:45px;
+}
+#sdk span{
+	padding:10px;
+	margin-left:80px;
