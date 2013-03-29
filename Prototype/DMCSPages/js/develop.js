@@ -11,4 +11,8 @@ $(function() {
 		}
 	});
 
+	$('ul#leftUl li a span').click(function() {
+		$(this).parent().find('.open').click();
+	})
+
 })
