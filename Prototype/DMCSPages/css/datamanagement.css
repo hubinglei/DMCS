@@ -1,6 +1,6 @@
 #left-nav{
 	float: left;
-	width: 200px;
+	width: 220px;
 	padding: 3px;
 	background: #efefef;
 	border-radius: 2px;
@@ -58,7 +58,7 @@
 	margin-left:-40px;
 	padding-left:20px;
 }
-.rightContent{
+#rightContent{
 	float: left;
 	border:3px solid #efefef ;
 	border-radius: 2px 2px 2px 2px;
@@ -79,5 +79,5 @@
     line-height: 20px;
     padding: 10px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
-	width:720px;
+	width:700px;
 	}
