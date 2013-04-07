@@ -6,7 +6,7 @@
 	border-radius: 2px;
 	clear:both;
 	margin-top:20px;
-	height:410px;
+	height:510px;
 }
 #accountName{
 	text-align:center;
@@ -58,3 +58,26 @@
 	margin-left:-40px;
 	padding-left:20px;
 }
+.rightContent{
+	float: left;
+	border:3px solid #efefef ;
+	border-radius: 2px 2px 2px 2px;
+	margin-top:20px;
+	margin-left:20px;
+}
+.contentTitle{
+	background-color: #E0E0E0;
+    background-image: linear-gradient(#FAFAFA, #E0E0E0);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 0 none;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: #222222;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+	width:720px;
+	}

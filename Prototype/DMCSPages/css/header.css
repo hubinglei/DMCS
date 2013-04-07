@@ -126,3 +126,7 @@ a.tryButton {
 	color: #fff;
 	font-weight: 700;
 }
+#account img{
+	padding-left:15px;
+	cursor:pointer;
+}
