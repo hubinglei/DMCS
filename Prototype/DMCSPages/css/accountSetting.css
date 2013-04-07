@@ -1,0 +1,54 @@
+.dInfor{
+	margin-left:10px;
+}
+.dInfor span {
+	height:45px;
+	line-height:45px;
+}
+.dInfor input{
+	width: 400px;
+	background-color: #fafafa;
+	-moz-box-sizing: border-box;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    min-height: 30px;
+    outline: medium none;
+    padding: 7px 8px;
+    transition: all 0.15s ease-in 0s;
+    vertical-align: middle;
+}
+.button{
+	background:url(../image/change_button.png);
+	width:151px;
+	height:34px;
+	line-height:34px;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+	cursor:pointer;
+	text-align:center;
+	}
+.update_password{
+	padding-left:10px;
+	margin-top:-5px;
+	float:left;
+	}
+.forget_password{
+	color:#03C;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	cursor:pointer;
+}
+.button span{
+	float: left;
+    margin-top: -5px;
+    padding-left: 10px;
+}
+#changePhone{
+	padding-left: 3px;
+}

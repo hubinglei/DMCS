@@ -1,0 +1,15 @@
+.title{
+	font-weight:600;
+	text-align:right;
+	float:left;
+	width:200px;
+}
+.infor{
+	border-bottom: 1px solid #CFCFCE;
+	width:100%;
+	height:45px;
+	line-height:45px;		
+}
+.infor span{
+	padding-left:20px;
+}

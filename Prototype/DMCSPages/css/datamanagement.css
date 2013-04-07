@@ -58,13 +58,6 @@
 	margin-left:-40px;
 	padding-left:20px;
 }
-#rightContent{
-	float: left;
-	border:3px solid #efefef ;
-	border-radius: 2px 2px 2px 2px;
-	margin-top:20px;
-	margin-left:20px;
-}
 .contentTitle{
 	background-color: #E0E0E0;
     background-image: linear-gradient(#FAFAFA, #E0E0E0);
@@ -81,3 +74,10 @@
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
 	width:700px;
 	}
+.dInfor-l{
+	border: 3px solid #EFEFEF;
+    border-radius: 2px 2px 2px 2px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
