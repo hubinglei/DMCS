@@ -1,0 +1,26 @@
+﻿<link href="css/progress.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/progress.js"></script>
+<div class="dInfor-l">
+	<div class="contentTitle">
+		<span class="data_used"></span>
+	</div>
+	<div class="dInfor">
+		<div id="progress1"></div>
+        <div id="progress2"></div>
+        <div id="progress3"></div>
+        <div id="progress4"></div>
+        <div id="progress5"></div>
+	</div>
+</div>
+<script>
+  $.progress('progress1', {title:'Stock Volume :', tips:'已使用12MB',progress:'20%',scale:'0MB',scale1:'30MB',scale2:'60MB'});
+  
+  $.progress('progress2', {title:'Inflow Volume :', tips:'已使用24MB',progress:'40%',scale:'0MB',scale1:'30MB',scale2:'60MB'});
+  
+  $.progress('progress3', {title:'Outflow Volume :', tips:'已使用30MB',progress:'3%',scale:'0MB',scale1:'30MB',scale2:'60MB'});
+	
+  $.progress('progress4', {title:'Project Volume :', tips:'已使用25',progress:'62.5%',scale:'0',scale1:'20',scale2:'40'});
+	 
+  $.progress('progress5', {title:'Visitor Volume :', tips:'3000人访问',progress:'50%',scale:'0',scale1:'5W',scale2:'10W'});
+  </script>

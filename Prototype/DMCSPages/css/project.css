@@ -1,0 +1,8 @@
+table tr td{
+	border-bottom: 1px solid #CFCFCE;
+    height: 45px;
+    line-height: 45px;
+}
+.tableTitle{
+	background-color:#dbe3e8;
+}
