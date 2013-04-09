@@ -1,3 +1,6 @@
+html,body{
+	font: 15px Helvetica, arial, freesans, clean, sans-serif;
+}
 #content,#footer{
 	margin: auto;
 	max-width: 978px;
