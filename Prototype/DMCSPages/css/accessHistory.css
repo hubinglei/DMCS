@@ -1,0 +1,58 @@
+.tabnav {
+    border-bottom: 1px solid #DDDDDD;
+    float: right;
+    height: 35px;
+    margin: -50px 0;
+    width: 705px;
+}
+.tabnav .tabnav-tabs {
+float: left;
+margin-left: 180px;
+ margin-top: 10px;
+}
+.tabnav .tabnav-tabs>li {
+display: inline-block;
+}
+.tabnav-tab {
+margin-bottom: -1px;
+padding: 8px 50px;
+border: 1px solid transparent;
+border-bottom: 0;
+font-size: 14px;
+color: #666;
+text-decoration: none;
+
+}
+.tabnav-tab.selected {
+border-color: #ddd;
+border-radius: 3px 3px 0 0;
+background-color: #fff;
+color: #000000;
+font-weight:bold;
+}
+.tableTitle_l{
+	background-color:#fafafa;
+}
+.scale{
+	float:right;
+	color:#225799;
+}
+.scale label{
+	padding-left:20px;
+	cursor:pointer;
+}
+.titleBg{
+	background-color: #DBE3E8;
+	width:700px;
+	height:45px;
+	line-height:45px;
+}
+#graphInfor{
+	display:none;
+}
+#chart1,#chart2,#chart3{
+	width:700px;
+}
+.jqplot-title{
+	margin:10px;
+}

@@ -1,1 +1,150 @@
+<link href="css/project.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.jqplot.min.css" rel="stylesheet" type="text/css" />
+<link href="css/accessHistory.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/lib/jquery.jqplot.js"></script>
+<script type="text/javascript"
+	src="js/lib/jqplot.canvasTextRenderer.min.js"></script>
+<script type="text/javascript"
+	src="js/lib/jqplot.canvasAxisLabelRenderer.min.js"></script>
+<script type="text/javascript" src="js/lib/jqplot.barRenderer.min.js"></script>
+<script type="text/javascript"
+	src="js/lib/jqplot.categoryAxisRenderer.min.js"></script>
+<script type="text/javascript" src="js/lib/jqplot.BezierCurveRenderer.js"></script>   
+<script type="text/javascript" src="js/accessHistory.js"></script>
+<div class="selectOption">
+	<select>
+		<option value="1">Project1</option>
+
+		<option value="2">Project2</option>
+
+		<option value="3">Project3</option>
+
+	</select>
+</div>
+<div class="tabnav">
+	<ul class="tabnav-tabs">
+		<li><a class="selected tabnav-tab"><span class="data"></span>
+		</a>
+		</li>
+		<li><a class="tabnav-tab"><span class="graph"></span>
+		</a>
+		</li>
+	</ul>
+</div>
+<div id="dataInfor">
+	<div class="scale">
+		<label>Day</label><label> <img src="image/history.png"
+			width="13" height="13" />History</label>
+	</div>
+	<div class="dInfor-l">
+
+		<table width="700px" border="0" cellspacing="0">
+			<tr class="tableTitle">
+				<td colspan="6"><span class="data_access"></span>
+				</td>
+			</tr>
+			<tr class="tableTitle_l">
+				<td><span class="access_column1"></span>
+				</td>
+				<td><span class="access_column2"></span>
+				</td>
+				<td><span class="access_column3"></span>
+				</td>
+				<td><span class="access_column4"></span>
+				</td>
+				<td><span class="access_column5"></span>
+				</td>
+				<td><span class="access_column6"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Authentication</td>
+				<td>Succeed</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.26</td>
+				<td>4h</td>
+				<td>Write In</td>
+				<td>Fail</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Read Out</td>
+				<td>Succeed</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Authentication</td>
+				<td>Succeed</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Authentication</td>
+				<td>Succeed</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Authentication</td>
+				<td>Succeed</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Authentication</td>
+				<td>Succeed</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Authentication</td>
+				<td>Succeed</td>
+			</tr>
+			<tr>
+				<td>215933</td>
+				<td>511623</td>
+				<td>2013.3.1</td>
+				<td>4h</td>
+				<td>Authentication</td>
+				<td>Succeed</td>
+			</tr>
+		</table>
+
+	</div>
+</div>
+<div id="graphInfor">
+	<div class="scale">
+		<label>Day</label><label> <img src="image/history.png"
+			width="13" height="13" />History</label>
+	</div>
+	<div class="dInfor-l">
+		<div class="titleBg">
+			<span class="data_access"></span>
+		</div>
+		<div id="chart1"></div>
+		<div id="chart2"></div>
+		<div id="chart3"></div>
+	</div>
+</div>

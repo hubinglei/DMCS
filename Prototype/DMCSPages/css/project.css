@@ -6,3 +6,40 @@ table tr td{
 .tableTitle{
 	background-color:#dbe3e8;
 }
+table tr td a{
+	text-decoration:none;
+}
+table tr td a:hover{
+	text-decoration:underline;
+}
+.selectOption{
+	float: left;
+    margin-left: 45px;
+    margin-bottom: 20px;
+	position: relative;
+    z-index: 99999;
+}
+.hrLine{
+	width:705px;
+	border-bottom:1px solid #CFCFCE;
+	border-top:0px none;
+	float:right;
+	
+	}
+select{
+	margin-top:20px;
+	width:200px;
+	height:30px;
+}
+.nav{
+	float: left;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.navTitle{
+	color: #4183c4;
+	font-weight: bold;
+	font-size: 18px;
+	padding-right:5px;
+	cursor:pointer
+}
