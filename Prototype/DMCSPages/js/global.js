@@ -37,7 +37,7 @@ function getLang(){
 		language = document.cookie.substring(language.indexOf('=') + 1,
 				language.length)
 	}
-	if(language ==""){
+	if(language ==""||language ==null){
 		language ='en_US'
 		}
 	return language;
