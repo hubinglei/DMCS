@@ -43,3 +43,14 @@ select{
 	padding-right:5px;
 	cursor:pointer
 }
+.tableTitle_l{
+	background-color:#fafafa;
+}
+.scale{
+	float:right;
+	color:#225799;
+}
+.scale a{
+	padding-left:20px;
+	cursor:pointer;
+}

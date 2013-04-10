@@ -13,4 +13,10 @@
 .content1 { float: right;	border:3px solid #efefef ;	border-radius: 2px 2px 2px 2px;	margin-top:20px;	margin-left:20px;}
 .treeview-collapsed {	display:none;}
 .treeview-expanded { display:none;}
-.sontable { height:160px; border-left:#dddcdc 1px solid; border-right:#dddcdc 1px solid; margin:0px;}
+.sontable { height:300px; border-left:#dddcdc 1px solid; border-right:#dddcdc 1px solid; margin:0px;}
+#chart1{
+	width:50%;
+}
+#chart2{
+	width:50%;
+}

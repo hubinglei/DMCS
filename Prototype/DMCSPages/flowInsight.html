@@ -1,6 +1,10 @@
 <html>
 <head>
+<link href="css/jquery.jqplot.min.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/lib/jquery.jqplot.js"></script>
+<script type="text/javascript" src="js/lib/jqplot.pieRenderer.min.js"></script>
+<script type="text/javascript" src="js/lib/jqplot.donutRenderer.min.js"></script>
 <script type="text/javascript" src="js/flowinsight.js"></script>
 <link href="css/flowinsight.css" rel="stylesheet" type="text/css" />
 
@@ -22,8 +26,8 @@
             </ul>
             <ul class="sontable treeview-expanded">
             	<li class="line1"></li>
-                <li class="line2"><img src="image/chart2.png"></li>
-                <li class="line3"><img src="image/chart2.png"></li>
+                <li class="line2" id="chart1"></li>
+                <li class="line3" id="chart2"></li>
             </ul>
             </div>
             <div>
@@ -35,8 +39,8 @@
             </ul>
             <ul class="sontable treeview-expanded">
             	<li class="line1"></li>
-                <li class="line2"><img src="image/chart2.png"></li>
-                <li class="line3"><img src="image/chart2.png"></li>
+                <li class="line2" id="char1"><img src="image/chart2.png"></li>
+                <li class="line3" id="char2"><img src="image/chart2.png"></li>
             </ul>
             </div>
             <div>

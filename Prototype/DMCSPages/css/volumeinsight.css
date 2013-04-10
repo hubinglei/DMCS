@@ -13,3 +13,6 @@
 .treeview-collapsed {	display:none;}
 .treeview-expanded { display:none;}
 .sontable { height:350px; border-left:#dddcdc 1px solid; border-right:#dddcdc 1px solid; margin:0px;}
+#chart1{
+	width:100%;
+}
