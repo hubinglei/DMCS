@@ -16,12 +16,13 @@ $(function(){
 		   
 $(function(){
 		   $('#detail1').click(function(){
-						var This =$(this);
-						This.parent().parent().parent().find(".sontable").toggleClass('treeview-expanded');
-					if ($("#detail1").text() = "Detail") {
-						$("#detail1").text() = "OK"
+					var This =$(this);
+					This.parent().parent().parent().find(".sontable").toggleClass('treeview-expanded');
+					if ($("#detail1").text() == "Detail") {
+						$("#detail1").text("OK");
 						} else {
-								$("#detail1").text() = "Detail";
+								$("#detail1").text("Detail");
+								
 								}
 						
 										})
