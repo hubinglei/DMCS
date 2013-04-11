@@ -41,10 +41,12 @@
 	display: none;
 }
 .link{
-	color:#349ec0;
-	margin-top: 60px;
+	color: #349EC0;
+    float: left;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 20px;
     text-align: center;
-	font-size: 18px;
 }
 .link a {
 	padding-left:10px;
@@ -56,7 +58,7 @@
 	width:476px;
 }
 #product,#develop,#price,#order,#service{
-	height:156px;
+	height:180px;
 	background-color:#f3f3f3;
 	margin-top: -8px;
 	border:2px  solid #eaeaea ;
@@ -81,7 +83,6 @@
 	float:left;
 }
 .out_wrap1{
-	height:160px;
 	float:left;
 }
 #product{
@@ -106,7 +107,7 @@
 	margin-top:-15px;
 }
 #prs{
-	margin-top:36px;
+	margin-top:46px;
 }
 #price,.out_wrap1,#order,#service{
 	width:314px;
