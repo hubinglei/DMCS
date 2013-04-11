@@ -1,4 +1,4 @@
-.detail1 {
+.edit {
     background: url("../image/detail-bg.png") no-repeat scroll 0 0 transparent;
     cursor: pointer;
     font-weight: 100;
@@ -34,6 +34,30 @@
 #colorTable{
 	height:160px;
 }
-.gray{color:#666666}
-.f12{font-size:12px}
-.box{padding:2px;}
+.explainI{
+	float:left;
+}
+.labelName input{
+	width:80px;
+	height:25px;
+}
+.explainI input{
+	height:25px;
+	width:200px;
+}
+.block-select {
+width: 40px;
+height: 25px;
+display: block;
+border: solid 1px;
+}
+.a-picker-block {
+width: 35px;
+height: 35px;
+display: block;
+}
+.block-select a {
+    display: block;
+    height: 25px;
+    width: 40px;
+}
