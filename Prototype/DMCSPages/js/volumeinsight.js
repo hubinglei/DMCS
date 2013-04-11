@@ -2,24 +2,16 @@ $(function() {
 	var data = [ [ 'LED Assembly', 12 ], [ 'Other Materials', 9 ],
 			[ 'Lower Prism Film', 14 ], [ 'Bottom Diffuser', 16 ],
 			[ 'Relflective Sheet', 7 ] ];
-	var seriesDefaultsStr ={
-   renderer : jQuery.jqplot.PieRenderer,
-   rendererOptions : {
-    showDataLabels : true
-   }
-   } 
-
 	function jqplotfun(chart, data) {
-  var plot = jQuery.jqplot( chart, data, {
-    seriesDefaults : {
-      renderer : jQuery.jqplot.PieRenderer,
-      rendererOptions : {
-        showDataLabels : true
-      }
-    }
- 
-  });
-  return plot;
+		  var plot = jQuery.jqplot( chart, data, {
+			seriesDefaults : {
+			  renderer : jQuery.jqplot.PieRenderer,
+			  rendererOptions : {
+				showDataLabels : true
+				  }
+				}		 
+			 });
+ 		 return plot;
     }
 	var plot1 = jqplotfun('chart1', [ data ]);
 	var plot2 = jqplotfun('chart2', [ data ]);
