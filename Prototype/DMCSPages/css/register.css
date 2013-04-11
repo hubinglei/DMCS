@@ -52,17 +52,8 @@
 	padding:20px;
 	float:left;
 }
-.form_l,.form_2,.form_3{
-	margin-top:35px;
-}
-.form_2{
-	margin-left:100px;
-}
-.form_3{
-	margin-left:68px;
-}
-.form_4{
-	margin-left:115px;
+
+#tableForm{
 	margin-top:20px;
 }
 #code{
@@ -83,7 +74,7 @@
 }
 
 .strength-bar{
-	margin-left: 103px;
+	margin-left: 20px;
     margin-top: 5px;
 	color:#ffffff;
 }
