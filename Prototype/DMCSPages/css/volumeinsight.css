@@ -4,8 +4,7 @@
 .title1 { background-color:#FAFAFA; height:55px; line-height:53px; display:block; color:#59595b; border:#dddcdc 1px solid; margin:0px; padding:0px; width:718px;}
 .line1 { width:150px; float:left; padding-left:15px;}
 .line5 { width:320px; float:left;}
-.row1 {height:55px; line-height:53px; display:block; color:#59595b; margin:0px; padding:0px; border-left:#dddcdc 1px solid; border-right:#dddcdc 1px solid; width:718px;}
-.row2 {height:55px; line-height:53px; display:block; color:#59595b; margin:0px; padding:0px; border:#dddcdc 1px solid; width:718px;}
+.row1 {height:55px; line-height:53px; display:block; color:#59595b; margin:0px; padding:0px; border:#dddcdc 1px solid; width:718px;margin-top:-1px}
 .line4 { width:100px; float:left; background:url(../image/detail-bg.png) no-repeat 10px; cursor:pointer; }
 .detail1 { font-weight:100; padding:30px;}
 .detail1 span { }
