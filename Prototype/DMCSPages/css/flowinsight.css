@@ -1,21 +1,40 @@
-.clickdown { width:25px;	height:25px;	margin-left:15px;	cursor:pointer;}
-.clickleft { width:25px;	height:25px;	margin-left:15px;	cursor:pointer; display:none;}
+.clickdown { width:25px;	height:25px;	float:right; cursor:pointer;}
+.clickleft { width:25px;	height:25px; float:right;	cursor:pointer; display:none;}
 .data_ownership { font-size:18px; margin-bottom:0px;}
 .title1 { background-color:#FAFAFA; height:55px; line-height:53px; display:block; color:#59595b; border:#dddcdc 1px solid; margin:0px; padding:0px; width:718px;}
 .line1 { width:150px; float:left; padding-left:15px;}
 .line2 { width:220px; float:left;}
 .line3 { width:220px; float:left;}
-.row1 {height:55px; line-height:53px; display:block; color:#59595b; margin:0px; padding:0px; border:#dddcdc 1px solid; width:718px;margin-top:-1px}
-.line4 { width:100px; float:left; background:url(../image/detail-bg.png) no-repeat 10px; cursor:pointer; }
-.detail1 { font-weight:100; padding:30px;}
-.detail1 span { }
+.row1 {height:45px; line-height:45px; display:block; color:#59595b; margin:0px; padding:0px; border:#dddcdc 1px solid; width:718px;margin-top:-1px}
+.line4 { width:100px; float:left; background:url(../image/detail-bg.png) no-repeat 1px; cursor:pointer; }
+.detail1 { font-weight:100; padding:0px 20px;}
 .content1 { float: right;	border:3px solid #efefef ;	border-radius: 2px 2px 2px 2px;	margin-top:20px;	margin-left:20px;}
 .treeview-collapsed {	display:none;}
 .treeview-expanded { display:none;}
 .sontable { height:300px; border-left:#dddcdc 1px solid; border-right:#dddcdc 1px solid; margin:0px;}
-#chart1{
-	width:50%;
-}
-#chart2{
-	width:50%;
-}
+#chart1{	width:50%;}
+#chart2{	width:50%;}
+#chart3{	width:50%;}
+#chart4{	width:50%;}
+#chart5{	width:50%;}
+#chart6{	width:50%;}
+#chart7{	width:50%;}
+#chart8{	width:50%;}
+#chart9{	width:50%;}
+#chart10{	width:50%;}
+#chart11{	width:50%;}
+#chart12{	width:50%;}
+#chart13{	width:50%;}
+#chart14{	width:50%;}
+#chart15{	width:50%;}
+#chart16{	width:50%;}
+#chart17{	width:50%;}
+#chart18{	width:50%;}
+#chart19{	width:50%;}
+#chart20{	width:50%;}
+#chart21{	width:50%;}
+#chart22{	width:50%;}
+#chart23{	width:50%;}
+#chart24{	width:50%;}
+#chart25{	width:50%;}
+#chart26{	width:50%;}
