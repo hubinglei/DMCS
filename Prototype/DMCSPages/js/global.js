@@ -17,14 +17,14 @@ $(function() {
 	
 	
 	$(".lang_1").click(function() {
-		loadBundles('en_US');
-		setCookie('en_US')
+		loadBundles('en');
+		setCookie('en')
 
 	})
 	
 	$(".lang_3").click(function() {
-		loadBundles('zh_CN');
-		setCookie('zh_CN')
+		loadBundles('zh');
+		setCookie('zh')
 
 	})
 })
@@ -38,7 +38,7 @@ function getLang(){
 				language.length)
 	}
 	if(language ==""||language ==null){
-		language ='en_US'
+		language ='en'
 		}
 	return language;
 	}
