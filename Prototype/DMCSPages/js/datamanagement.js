@@ -11,10 +11,16 @@ $(function() {
 		$.ajax({
 			url : urls,
 			dataType : 'html',
+			beforeSend:loading,
 			success : function(data) {
 				$('#rightContent').html(data);
+				$('#loadDiv').hide();
 			}
 		});
 
 	})
+	
+	function loading(){
+		$('#loadDiv').show();
+		}
 })
