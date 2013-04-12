@@ -27,7 +27,7 @@ ol,ul {
 	height: 27px;
 	width: 229px;
 	background: url(../image/bg1.png);
-	margin-left: 130px;
+	margin-left:160px;
 }
 
 .progress>span {
@@ -52,14 +52,14 @@ ol,ul {
 }
 
 .text1 {
-	margin-left: 100px;
-	width: 229px;
+	margin-left: 120px;
+	width: 300px;
 	font-size: 10px;
 }
 
 .textli1 {
 	text-align: left;
-	width: 45%;
+	width: 30%;
 	float: left;
 }
 
@@ -78,7 +78,7 @@ ol,ul {
 	width: 86px;
 	height: 33px;
 	background: url(../image/infor2.png) no-repeat;
-	margin-left: 19%;
+	margin-left: 23%;
 	text-align: center;
 	font-size:12px;
 	visibility: hidden;
